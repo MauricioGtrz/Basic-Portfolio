@@ -1,23 +1,66 @@
-#bodyIndex{
-    width: 960px;
-    margin: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    color: #777777;
-    background-color: rgb(59, 59, 59);
-    
+body{
+    background-image: url(http://st2.depositphotos.com/3322803/7014/v/450/depositphotos_70147483-stock-illustration-dotted-seamless-pattern-with-circles.jpg);
 }
 
-#mainSection{
+header{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    height: 80px;
+    border-width: 0px;
+    border-bottom: 3px;
+    border-style: solid;
+    border-color: #cccccc;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.topSection{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+.topName{
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 60px;
+    width: 400px;
+    background-color: #4aaaa5;
+    margin: 0px;
+    padding-top: 20px;
+    float: left;
+}
+
+.navbar{
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    text-align: center;
+    float: right;
+    margin-top: 35px;
+}
+
+
+.mainSection{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #ffffff;
     border-width: 2px;
     border-style: solid;
     border-color: #dddddd;
     padding: 20px;
+    width: 916px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    color: #777777;
 }
 
-h1{
+.mainHeader{
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-width: 0px;
@@ -33,7 +76,103 @@ h1{
     clear: both;
 }
 
-#backgorund{
-    position: relative;
-    z-index: 1;
+footer{
+    color: white;
+    height: 30px;
+    padding-top: 10px;
+    background-color: #666666;
+    text-align: center;
+    width: 100%;
+    margin-right: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 0;
+    border-width: 0px;
+    border-top: 5px;
+    border-color: #4aaaa5;
+    border-style: solid;
 }
+
+.portfolioMain{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #dddddd;
+    padding: 20px;
+    width: 916px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    color: #777777;
+    height: 1200px;
+    margin-bottom: 100px;
+}
+
+.image1container{
+    text-align: center;
+    position: relative;
+    float: left;
+    margin-left: auto;
+    margin: 30px;
+}
+
+
+.hangman{
+    color: white;
+    font-size: large;
+    background-color: #4aaaa5;
+    width: 300px;
+    height: 35px;
+    text-align: center;
+    position: absolute;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    bottom: 0;
+}
+
+
+.contactMain{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #dddddd;
+    padding: 20px;
+    width: 916px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    color: #777777;
+    margin-bottom: 100px;
+}
+
+.form{
+    border-radius: 5px;
+    padding: 20px;
+    text-align: left;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=submit] {
+    font-size: large;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
